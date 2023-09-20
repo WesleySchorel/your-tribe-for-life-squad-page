@@ -1,15 +1,14 @@
 <script>
-	export let footer;
+    	export let data;
 </script>
 
 <footer>
-	<div class="title">{footer.slices[5].primary.footer_title}</div>
+	<div class="title">{data.slices[5].primary.footer_title}</div>
 	<div class="img">
-		<img src={footer.slices[5].primary.footer_image.url} alt="footer-image" />
+		<img src={data.slices[5].primary.footer_image.url} alt="" />
 	</div>
 	<div class="link">
-		<a href={footer.slices[5].primary.footer_link.url}
-		>{footer.slices[5].primary.footer_link_title}</a>
+		<a href="{data.slices[5].primary.footer_link.url}">{data.slices[5].primary.footer_link_title}</a>
 	</div>
 </footer>
 

@@ -10,7 +10,7 @@
 	console.log(data.data1);
 </script>
 
-<Header header={data.data2} />
+<Header data={data.data2} />
 
 <section>
 	<div class="grain"></div>
@@ -41,7 +41,7 @@
 	<img id="image2" src={data.data1.slices[0].primary.image_more_about.url} />
 </section>
 
-<Footer footer={data.data2} />
+<Footer data={data.data2} />
 
 <style>
 	section {

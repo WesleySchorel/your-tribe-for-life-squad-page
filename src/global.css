@@ -44,7 +44,6 @@ background-color: #C8C8C8;
   left: 0;
   height: 100%;
   width: 100%;
-  pointer-event: none;
   
   &:before {
     content: "";
