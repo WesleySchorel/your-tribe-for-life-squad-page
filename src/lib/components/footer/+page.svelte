@@ -1,27 +1,28 @@
 <script>
-    	export let footer;
+	export let footer;
 </script>
 
 <footer>
 	<div class="title">{footer.slices[5].primary.footer_title}</div>
 	<div class="img">
-		<img src={footer.slices[5].primary.footer_image.url} alt="" />
+		<img src={footer.slices[5].primary.footer_image.url} alt="footer-image" />
 	</div>
 	<div class="link">
-		<a href="{footer.slices[5].primary.footer_link.url}">{footer.slices[5].primary.footer_link_title}</a>
+		<a href={footer.slices[5].primary.footer_link.url}
+		>{footer.slices[5].primary.footer_link_title}</a>
 	</div>
 </footer>
 
 <style>
 	footer {
-    	position: relative;
+		position: relative;
 		width: 100%;
 		left: 0px;
 		bottom: 0;
 		padding: 1.2rem 0rem 0rem 1.2rem;
 		background-color: rgb(217, 217, 217);
 		color: rgb(0, 0, 0);
-
+		margin-top: 50px;
 		display: grid;
 		grid-template-columns: 0.8fr 1.2fr;
 		grid-template-rows: 1fr 1fr;
@@ -52,6 +53,6 @@
 
 	.link a {
 		color: rgb(0, 0, 0);
-  		text-decoration: none;
+		text-decoration: none;
 	}
 </style>
