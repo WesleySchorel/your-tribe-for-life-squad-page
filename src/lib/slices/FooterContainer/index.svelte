@@ -35,6 +35,8 @@
 	.title {
 		grid-area: title;
 		font-size: 28px;
+		width: 75%;
+		margin-top: 1rem;
 	}
 
 	.img {
@@ -45,6 +47,8 @@
 	.link {
 		grid-area: link;
 		font-size: 16px;
+		margin-top: 2.5rem;
+		margin-left: 1.2rem;
 	}
 
 	.link a {
