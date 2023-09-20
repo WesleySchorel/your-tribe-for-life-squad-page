@@ -3,17 +3,16 @@
 
 	import Header from '$lib/components/header/+page.svelte';
 
-	import Footer from '$lib/components/footer/+page.svelte';
-
 	// what does export exactly do?
 	export let data;
 
 	console.log(data.data1);
 </script>
 
-<Header header={data.data2} />
+<Header list={data.data2} />
 
 <section>
+	<div class="grain" />
 	<h1>{data.data1.slices[0].primary.heading_1}!</h1>
 
 	<img id="image" src={data.data1.image.url} alt="" />
@@ -40,8 +39,6 @@
 
 	<img id="image2" src={data.data1.slices[0].primary.image_more_about.url} />
 </section>
-
-<Footer footer={data.data2}/>
 
 <style>
 	section {
@@ -76,9 +73,9 @@
 		flex-direction: row;
 	}
 
-
 	.fingers {
 		width: 2.8rem;
+		z-index: 2;
 	}
 
 	#pointy-finger {
@@ -86,9 +83,8 @@
 		margin-bottom: 1.3rem;
 	}
 
-	.info-list{
+	.info-list {
 		font-size: 1.3rem;
-
 	}
 
 	li {
@@ -96,7 +92,6 @@
 		margin-top: 1.6rem;
 		margin-bottom: 1.6rem;
 		text-align: left;
-
 	}
 
 	#second-header {
