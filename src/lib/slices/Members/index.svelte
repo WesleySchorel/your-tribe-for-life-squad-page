@@ -23,8 +23,6 @@
 </section>
 
 <style>
-
-	
 	.all-members {
 		display: flex;
 		overflow-x: scroll;
@@ -32,7 +30,7 @@
 		position: relative;
 		z-index: 2;
 		scrollbar-width: none;
-		-ms-overflow-style: none; 
+		-ms-overflow-style: none;
 	}
 	.all-members::-webkit-scrollbar {
 		width: 0;

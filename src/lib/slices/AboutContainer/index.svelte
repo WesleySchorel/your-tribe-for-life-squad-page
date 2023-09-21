@@ -9,7 +9,7 @@
 	data-slice-type={slice.slice_type}
 	data-slice-variation={slice.variation}
 >
-<div class="grain"></div>
+	<div class="grain" />
 	<!-- Placeholder component for {slice.slice_type} (variation: {slice.variation}) Slices -->
 
 	<h2>{slice.primary.about_title}</h2>
@@ -24,12 +24,12 @@
 		text-align: left;
 		padding-left: 2rem;
 		padding-right: 2rem;
-		margin-top:1em ;
+		margin-top: 1em;
 		font-weight: normal;
-		margin-bottom:1em ;
+		margin-bottom: 1em;
 	}
 
-	img {       
+	img {
 		width: 100%;
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -40,5 +40,7 @@
 		margin-bottom: 50px;
 		padding-left: 2rem;
 		padding-right: 2rem;
+		line-height: 1.5;
+		font-weight: 500; 
 	}
 </style>

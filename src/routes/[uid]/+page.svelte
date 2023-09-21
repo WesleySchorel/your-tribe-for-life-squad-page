@@ -54,6 +54,7 @@
 		margin-top: 3rem;
 		font-size: 2.5rem;
 		margin-bottom: 1rem;
+		font-weight: normal;
 	}
 
 	#image {
@@ -65,6 +66,7 @@
 	h2 {
 		margin-top: 1rem;
 		margin-bottom: 1.5rem;
+		font-weight: normal;
 	}
 
 	ul {
@@ -107,6 +109,9 @@
 	p {
 		text-align: left;
 		padding: 1rem;
+		line-height: 1.5;
+		font-weight: 500;
+		margin-bottom: 1em;
 	}
 
 	#image2 {
