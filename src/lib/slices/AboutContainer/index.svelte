@@ -19,28 +19,22 @@
 
 <style>
 	h2 {
-		/* margin-top: 1em;
-		margin-bottom: 1em; */
 		text-align: left;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding: 0 2rem;
 		margin-top: 1em;
 		font-weight: normal;
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
 	}
 
 	img {
 		width: 100%;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding: 0 2rem;
 	}
 
 	p {
 		text-align: left;
-		margin-bottom: 50px;
-		padding-left: 2rem;
-		padding-right: 2rem;
-		line-height: 1.5;
-		font-weight: 500; 
+		margin-bottom: 1.75rem;
+		padding: 0 2rem;
+		line-height: 1.6;
 	}
 </style>

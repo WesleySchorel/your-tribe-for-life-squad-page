@@ -57,9 +57,9 @@
 	}
 
 	h3 {
+		position: relative;
 		font-size: 1.25em;
 		margin-top: 0.5em;
-		margin-bottom: 50px;
 		font-weight: normal;
 		color: black;
 	}

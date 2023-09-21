@@ -9,11 +9,14 @@
 	scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 @font-face {
 	font-family: groovy;
 	src: url('./lib/assets/AbstractGroovy-K7Zdy.ttf');
+}
+
+@font-face{
+  font-family: poppins;
+  src: url('./lib/assets/Poppins-SemiBold.ttf');
 }
 
 html,
@@ -104,10 +107,6 @@ input {
 	}
 }
 
-/* body{
-  padding: 0 2em;
-} */
-
 /* IPV body padding */
 .header,
 .call-to-action-container,
@@ -133,6 +132,6 @@ h2 {
 p {
 	font-size: 18px;
 	color: var(--text);
-	font-family: 'Poppins', sans-serif;
+	font-family: poppins, sans-serif;
 }
 
