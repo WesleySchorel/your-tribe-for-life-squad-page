@@ -5,7 +5,7 @@
 	export let slice;
 </script>
 
-<section
+<section id="all-members"
 	class="all-members"
 	data-slice-type={slice.slice_type}
 	data-slice-variation={slice.variation}

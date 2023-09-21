@@ -9,7 +9,9 @@
 	data-slice-type={data.slices[0].slice_type}
 	data-slice-variation={data.slices[0].variation}
 >
+<a href="/">
 	<img src={data.slices[0].primary.logo_image.url} alt="logo" />
+</a>
 	<h2 class="logo">{data.slices[0].primary.logo_title}</h2>
 </section>
 

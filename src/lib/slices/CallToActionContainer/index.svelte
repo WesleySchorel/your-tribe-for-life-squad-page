@@ -8,7 +8,7 @@
 <section class="call-to-action-container" data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
 	<h1 class= first-heading>{slice.primary.call_to_action_heading}</h1>
 	<img src={slice.primary.call_to_action_image.url} alt="">
-	<button>{slice.primary.search_button}</button>
+	<button><a href="#all-members">{slice.primary.search_button}</a></button>
 </section>
 
 <style>
@@ -34,5 +34,10 @@
 		padding: 0.9em 1em;
 		border-radius: 1.25em;
 		margin-top: 0.8em;
+	}
+
+	button a{
+		text-decoration: none;
+		color: black;
 	}
 </style>
