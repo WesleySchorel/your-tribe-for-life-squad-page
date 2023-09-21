@@ -16,13 +16,15 @@
 				<div class="image-container">
 					<img src={item.members.data.image.url} alt="" />
 				</div>
-				<p>{item.members.data.title}</p>
+				<h3>{item.members.data.title}</h3>
 			</a>
 		</section>
 	{/each}
 </section>
 
 <style>
+
+	
 	.all-members {
 		display: flex;
 		overflow-x: scroll;
@@ -56,9 +58,10 @@
 		display: flex;
 	}
 
-	p {
+	h3 {
 		font-size: 1.25em;
 		margin-top: 0.5em;
+		margin-bottom: 50px;
 	}
 
 	img {

@@ -15,9 +15,9 @@
 	}
 
 	h2{
+		font-weight: normal;
 		font-size: 1.75em;
 		width: 75%;
-		font-weight: normal;
 	}
 
 	input{

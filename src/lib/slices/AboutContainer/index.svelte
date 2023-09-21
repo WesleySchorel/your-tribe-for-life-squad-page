@@ -22,10 +22,14 @@
 		/* margin-top: 1em;
 		margin-bottom: 1em; */
 		text-align: left;
-		padding: 2rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-top:1em ;
+		font-weight: normal;
+		margin-bottom:1em ;
 	}
 
-	img {
+	img {       
 		width: 100%;
 		padding-left: 2rem;
 		padding-right: 2rem;

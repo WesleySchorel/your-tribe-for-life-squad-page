@@ -32,6 +32,7 @@
 	}
 
 	.title {
+		font-weight: nomral;
 		grid-area: title;
 		font-size: 28px;
 		width: 75%;
