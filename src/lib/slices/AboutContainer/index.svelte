@@ -21,7 +21,7 @@
 		/* margin-top: 1em;
 		margin-bottom: 1em; */
 		text-align: left;
-		padding: 2rem;
+		padding: 1.5rem;
 	}
 
 	img {
@@ -33,7 +33,7 @@
 	p {
 		text-align: left;
 		margin-bottom: 50px;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
 	}
 </style>
