@@ -124,3 +124,8 @@ p {
   line-height: 1.6;
 }
 
+/* SCRIPT CSS */
+.container-off {
+  display: none;
+}
+

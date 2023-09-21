@@ -11,7 +11,7 @@
 	data-slice-variation={slice.variation}
 >
 	{#each slice.items as item}
-		<section>
+		<section class="member">
 			<a href={item.members.uid}>
 				<div class="image-container">
 					<img src={item.members.data.image.url} alt="" />
