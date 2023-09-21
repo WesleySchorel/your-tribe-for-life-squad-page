@@ -35,6 +35,5 @@
 		text-align: left;
 		margin-bottom: 1.75rem;
 		padding: 0 2rem;
-		line-height: 1.6;
 	}
 </style>

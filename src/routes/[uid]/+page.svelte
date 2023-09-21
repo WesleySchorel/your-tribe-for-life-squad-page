@@ -59,13 +59,17 @@
 
 	#image {
 		width: 17rem;
+		height: 18rem;
+		/* width: 10em;
+		height: 11em; */
+		object-fit: cover;
 		filter: saturate(0);
 		border: 1em solid #a8a8a8;
 	}
 
 	h2 {
 		margin-top: 1rem;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.65rem;
 		font-weight: normal;
 	}
 
@@ -93,25 +97,26 @@
 	}
 
 	li {
-		margin-left: 2rem;
-		margin-top: 1.6rem;
+		margin-left: 2.2rem;
+		/* margin-top: 1.6rem; */
 		margin-bottom: 1.6rem;
 		text-align: left;
 	}
 
 	#second-header {
+		margin-top: 0;
+		margin-bottom: 0;
 		text-align: left;
 		padding: 1rem;
-		margin-top: -0.5rem;
-		margin-bottom: -0.8rem;
 	}
 
 	p {
 		text-align: left;
 		padding: 1rem;
-		line-height: 1.5;
-		font-weight: 500;
-		margin-bottom: 1em;
+		padding-bottom: 0;
+		padding-top: 0;
+		margin-top: 0;
+		margin-bottom: 1.55em;
 	}
 
 	#image2 {
