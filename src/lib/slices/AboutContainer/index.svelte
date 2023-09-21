@@ -9,6 +9,7 @@
 	data-slice-type={slice.slice_type}
 	data-slice-variation={slice.variation}
 >
+<div class="grain"></div>
 	<!-- Placeholder component for {slice.slice_type} (variation: {slice.variation}) Slices -->
 
 	<h2>{slice.primary.about_title}</h2>

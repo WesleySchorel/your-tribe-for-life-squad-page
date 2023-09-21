@@ -26,17 +26,27 @@
 	.all-members {
 		display: flex;
 		overflow-x: scroll;
-		margin: 2em 0 3.125em 0;
+		margin: 2em 0 -2.125em 0;
 		position: relative;
 		z-index: 2;
+		scrollbar-width: none;
+		-ms-overflow-style: none; 
+	}
+	.all-members::-webkit-scrollbar {
+		width: 0;
 	}
 
-	a{
+	/* Optioneel: voeg eventueel een aangepaste cursor toe bij hover op de scrollcontainer */
+	.all-members:hover {
+		cursor: url('/src/lib/assets/CursorSHover.svg'), auto;
+	}
+
+	a {
 		text-decoration: none;
 	}
 
 	a:hover {
-		cursor: url("/src/lib/assets/CursorSHover.svg"), auto;
+		cursor: url('/src/lib/assets/CursorSHover.svg'), auto;
 	}
 
 	.image-container {

@@ -8,6 +8,6 @@
 	export let data;
 </script>
 
-<Header header={data}/>
+<Header data={data}/>
 <SliceZone slices={data.slices} {components}/>
-<Footer footer={data}/>
+<Footer data={data}/>
