@@ -19,7 +19,7 @@
 		left: 0px;
 		bottom: 0;
 		padding: 1.2rem 0rem 0rem 1.2rem;
-		background-color: rgb(217, 217, 217);
+		background-color: #E9E9E9;
 		color: rgb(0, 0, 0);
 		margin-top: 70px;
 		display: grid;
@@ -54,5 +54,10 @@
 	.link a {
 		color: rgb(0, 0, 0);
 		text-decoration: none;
+	}
+	
+	.title, .img, .link{
+		position: relative;
+		z-index: 2;
 	}
 </style>

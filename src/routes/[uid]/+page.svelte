@@ -47,6 +47,8 @@
 	section {
 		text-align: center;
 		margin: 0 2.9em;
+		position: relative;
+		z-index: 2;
 	}
 
 	h1 {

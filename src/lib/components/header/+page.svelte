@@ -23,6 +23,8 @@
 	img {
 		width: 4.5em;
 		margin-right: 1em;
+		position: relative;
+		z-index: 2;
 	}
 	
 	.logo {

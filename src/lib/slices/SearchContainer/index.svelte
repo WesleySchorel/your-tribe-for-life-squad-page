@@ -17,6 +17,7 @@
 
 <style>
 	section {
+		/* position: relative; */
 		margin-top: 3.125em;
 	}
 
@@ -34,6 +35,7 @@
 		width: 100%;
 		margin-top: 1em;
 		font-size: 1em;
+		z-index: 2;
 	}
 
 	input::placeholder {
@@ -45,5 +47,10 @@
 		position: absolute;
 		right: 3em;
 		transform: translateY(-3.5em);
+		z-index: 3;
+	}
+
+	input, input::placeholder{
+		position: relative;
 	}
 </style>

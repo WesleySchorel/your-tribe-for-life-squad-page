@@ -30,6 +30,45 @@ input {
 	background-color: #c8c8c8;
 }
 
+h1, h2, p, button{
+	position: relative;
+	z-index: 2;
+}
+
+/* IPV body padding */
+.header,
+.call-to-action-container,
+.search-container {
+	padding: 0 2em;
+}
+
+.all-members {
+	padding: 0 0 0 2em;
+}
+/* IPV body padding */
+
+h1 {
+	font-size: 40px;
+	color: var(--text);
+}
+
+h2 {
+	font-size: 28px;
+	color: var(--text);
+}
+
+p {
+	font-size: 18px;
+	color: var(--text);
+	font-family: poppins, sans-serif;
+  line-height: 1.6;
+}
+
+/* SCRIPT CSS */
+.container-off {
+  display: none;
+}
+
 /* DIT IS DE GRAIN BACKGROUND */
 .grain {
 	position: fixed;
@@ -37,6 +76,7 @@ input {
 	left: 0;
 	height: 100%;
 	width: 100%;
+	z-index: 1;
 
 	&:before {
 		content: '';
@@ -46,7 +86,7 @@ input {
 		height: calc(100% + 20rem);
 		position: fixed;
 		background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
-		opacity: 0.25;
+		opacity: 0.2;
 		pointer-events: none;
 		-webkit-animation: noise 1s steps(2) infinite;
 		animation: noise 1s steps(2) infinite;
@@ -93,39 +133,5 @@ input {
 			transform: translate3d(-7rem, 0, 0);
 		}
 	}
-}
-
-/* IPV body padding */
-.header,
-.call-to-action-container,
-.search-container {
-	padding: 0 2em;
-}
-
-.all-members {
-	padding: 0 0 0 2em;
-}
-/* IPV body padding */
-
-h1 {
-	font-size: 40px;
-	color: var(--text);
-}
-
-h2 {
-	font-size: 28px;
-	color: var(--text);
-}
-
-p {
-	font-size: 18px;
-	color: var(--text);
-	font-family: poppins, sans-serif;
-  line-height: 1.6;
-}
-
-/* SCRIPT CSS */
-.container-off {
-  display: none;
 }
 

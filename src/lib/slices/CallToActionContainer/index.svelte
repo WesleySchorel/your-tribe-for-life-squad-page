@@ -23,6 +23,8 @@
 		width: 100%;
 		filter: saturate(0);
 		margin-top: 1em;
+		position: relative;
+		z-index: 2;
 	}
 
 	button{
