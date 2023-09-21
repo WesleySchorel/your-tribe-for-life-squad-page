@@ -13,7 +13,7 @@
 <Header data={data.data2} />
 
 <section>
-	<div class="grain"></div>
+	<!-- <div class="grain"></div> -->
 	<h1>{data.data1.slices[0].primary.heading_1}!</h1>
 
 	<img id="image" src={data.data1.image.url} alt="" />
@@ -46,8 +46,7 @@
 <style>
 	section {
 		text-align: center;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin: 0 2.9em;
 	}
 
 	h1 {
@@ -108,11 +107,12 @@
 		margin-bottom: 0;
 		text-align: left;
 		padding: 1rem;
+		padding-left: 0;
 	}
 
 	p {
 		text-align: left;
-		padding: 1rem;
+		padding: 1rem 0;
 		padding-bottom: 0;
 		padding-top: 0;
 		margin-top: 0;
@@ -120,7 +120,8 @@
 	}
 
 	#image2 {
-		width: 18rem;
+		width: 100%;
+		max-width: 25em;
 		filter: saturate(0);
 	}
 </style>
