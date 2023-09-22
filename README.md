@@ -1,7 +1,10 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Rubber Hose Squadpage 💭👀
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+
+ <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/27b61a64-db02-4741-9c2e-74b4d3109f0f" alt="mobile" width="250" height="455">
 
 ## Inhoudsopgave
 
