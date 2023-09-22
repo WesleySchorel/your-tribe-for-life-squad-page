@@ -1,12 +1,12 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Rubber Hose Squadpage 💭👀
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
  <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/27b61a64-db02-4741-9c2e-74b4d3109f0f" alt="mobile" width="250" height="455">
+ 
  <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/a9712103-f26e-4aa2-9ad7-e29441c96f49" alt="ipad" width="388" height="525">
 
-## Inhoudsopgave
+## Inhoudsopgave 🕸️
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -16,9 +16,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Samen hebben we een Squadpage gemaakt, geïnspireerd door "Rubber Hose"! Als je onze startpagina bezoekt, zie je meteen een zoekknop die je naar de sectie "Who you looking for?" leidt. Daar kun je iedereen opzoeken, en als je naar links scrolt, kun je alle klasgenoten van squad 2a en 2b zien.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
