@@ -18,6 +18,12 @@
 ## Beschrijving
 Samen hebben we een Squadpage gemaakt, geïnspireerd door "Rubber Hose"! Als je onze startpagina bezoekt, zie je meteen een zoekknop die je naar de sectie "Who you looking for?" leidt. Daar kun je iedereen opzoeken, en als je naar links scrolt, kun je alle klasgenoten van squad 2a en 2b zien.
 
+<img width="530" alt="Screenshot 2023-09-22 at 09 59 26" src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/bfe88721-4ef4-4ab9-bcbb-6c1125be8f56">
+
+Als je op iemand klikt, brengt het je naar de detailpagina van die persoon, waar je enkele van zijn of haar hobby's kunt lezen.
+
+<img width="530" alt="Screenshot 2023-09-22 at 10 03 24" src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/bcafce3e-f396-49c3-b4e7-1697c31c7a14">
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
