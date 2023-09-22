@@ -61,6 +61,8 @@ npm run dev
 * [Figma.com](https://www.figma.com/file/lAsWm7xVXpMeN2DcTUPozN/Untitled?type=design&node-id=0-1&mode=design&t=7nFhMFQcl127rr3a-0)
 * [Svelte.kit](https://kit.svelte.dev/)
 * [Prismic.io](https://prismic.io/docs)
+* https://www.okupter.com/blog/sveltekit-404-pages - Error page for Sveltekit
+* https://stackoverflow.com/questions/69321948/how-to-add-a-custom-404-page-and-a-different-error-page-for-other-errors-in-sv - Old & New way for error page sveltekit
 
 
 ## Licentie
