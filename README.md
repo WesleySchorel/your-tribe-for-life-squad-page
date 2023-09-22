@@ -4,7 +4,7 @@
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
  <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/27b61a64-db02-4741-9c2e-74b4d3109f0f" alt="mobile" width="250" height="455">
- <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/a9712103-f26e-4aa2-9ad7-e29441c96f49" alt="ipad" width="350" height="500">
+ <img src="https://github.com/Tolga1999/your-tribe-for-life-squad-page/assets/112861555/a9712103-f26e-4aa2-9ad7-e29441c96f49" alt="ipad" width="388" height="525">
 
 ## Inhoudsopgave
 
